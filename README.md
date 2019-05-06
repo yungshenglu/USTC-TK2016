@@ -12,7 +12,8 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
 
 > **NOTICE:** You are on the `master` branch now!
 
-1. Download the dataset and put it into the directory [`1_Pcap\`](1_Pcap/)
+1. Download the traffic dataset **USTC-TFC2016** and put it into the directory [`1_Pcap\`](1_Pcap/)
+    * You can download the traffic dataset **USTC-TFC2016** from my another [repository](https://github.com/yungshenglu/USTC-TFC2016).
 2. Open the PowerShell and run `1_Pcap2Session.ps1` (take a few minutes)
     * To split the PCAP file by each **session**, please make sure the line 10 and 14 in `1_Pcap2Session.ps1` is uncommented and make line 11 and 15 is in comment.
     * To split the PCAp file by each **flow**, please make sure the line 11 and 15 in `1_Pcap2Session.ps1` is uncommented and make line 10 and 14 is in comment.
