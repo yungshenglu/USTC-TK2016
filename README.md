@@ -24,7 +24,7 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
     * If succeed, you will see the following files (folders) in folder [`2_Session\`](2_Session/)
         * `AllLayers\`
         * `L7\`
-3. Run [`2_ProcessSession.ps1`](2_ProcessSession.ps1)
+3. Run [`2_ProcessSession.ps1`](2_ProcessSession.ps1) (take a few minutes)
     ```bash
     # Make sure your current directory is correct
     PS> .\2_ProcessSession.ps1
@@ -33,16 +33,24 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
         * `FilteredSession\` - Get the top 60000 large PCAP files
         * `TrimedSession\` - Trim the filtered PCAP files into size 784 bytes (28 x 28) and append `0x00` if the PCAP file is shorter than 784 bytes
         * The files in subdirectory `Test\` and `Train\` is random picked from dataset.
-4. Run [`3_Session2Png.py`](3_Session2Png.py)
+4. Run [`3_Session2Png.py`](3_Session2Png.py) (take a few minutes)
     ```bash
     # Make sure your current directory is correct
     PS> python3 3_Session2png.py
     ```
-5. Run [`4_Png2Mnist.py`](4_Png2Mnist.py)
+    * If succeed, you will see the following files (folders) in folder [`4_Png\`](4_Png/)
+        * `Test\` - For testing
+        * `Train\` - For training
+5. Run [`4_Png2Mnist.py`](4_Png2Mnist.py) (take a few minutes)
     ```bash
     # Make sure your current directory is correct
     PS> python3 4_Png2Mnist.py
     ```
+    * If succeed, you will see the the training datasets in folder [`5_Mnist\`](5_Mnist/)
+        * `train-images-idx1-ubyte`
+        * `train-images-idx3-ubyte`
+        * `train-images-idx1-ubyte.gz`
+        * `train-images-idx3-ubyte.gz`
 
 ---
 ## Author
