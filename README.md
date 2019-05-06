@@ -5,6 +5,8 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
 * The [`master`]() branch can only run on Windows environment.
 * The [`ubuntu`]() branch can run on Ubuntu Linux 16.04 LTS environment.
 
+> **NOTICE:** This repository credits to [echowei/DeepTraffic](https://github.com/echowei/DeepTraffic)
+
 ---
 ## Execution
 
