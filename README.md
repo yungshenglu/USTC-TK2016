@@ -61,6 +61,8 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
 ---
 ## Contributor
 
+> **NOTICE:** You can follow the contributing process [CONTRIBUTING.md](CONTRIBUTING.md) to join me. I am very welcome any issue!
+
 * [David Lu](https://github.com/yungshenglu)
 
 ---
