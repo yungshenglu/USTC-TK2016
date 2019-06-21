@@ -96,16 +96,14 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
         * `train-images-idx3-ubyte.gz`
 
 ---
-## Author
-
-* [Wei Wang](https://github.com/echowei) - ww8137@mail.ustc.edu.cn
-
----
 ## Contributor
 
 > **NOTICE:** You can follow the contributing process [CONTRIBUTING.md](CONTRIBUTING.md) to join me. I am very welcome any issue!
 
-* [David Lu](https://github.com/yungshenglu)
+* Author
+    * [Wei Wang](https://github.com/echowei) - ww8137@mail.ustc.edu.cn
+* Contributor
+    * [David Lu](https://github.com/yungshenglu)
 
 ---
 ## License
