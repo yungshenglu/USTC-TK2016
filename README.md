@@ -8,6 +8,23 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
 > **NOTICE:** This repository credits to [echowei/DeepTraffic](https://github.com/echowei/DeepTraffic)
 
 ---
+## Installation
+
+1. Clone this repository on your machine
+    ```bash
+    # Clone the repository on "master" branch
+    $ git clone -b master https://github.com/yungshenglu/USTC-TK2016
+    ```
+2. Install the required packages via the following command
+    ```bash
+    # Run the command at the root of the repository
+    $ pip3 install -r requirements.txt
+    ```
+    * The requried packages are listed as follow:
+        * [`numpy 1.16.4`](https://pypi.org/project/numpy/)
+        * [`PIL 1.1.6`](https://pypi.org/project/PIL/)
+
+---
 ## Execution
 
 > **NOTICE:** You are on the `master` branch now!
