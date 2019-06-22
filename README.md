@@ -40,7 +40,8 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
 
 1. Clone this repository on your machine
     ```bash
-    $ git clone https://github.com/yungshenglu/USTC-TK2016
+    # Clone the repository on "ubuntu" branch
+    $ git clone -b ubuntu https://github.com/yungshenglu/USTC-TK2016
     ```
 2. Install the required packages via the following command
     ```bash
