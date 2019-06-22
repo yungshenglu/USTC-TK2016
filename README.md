@@ -36,6 +36,22 @@ This repository is a toolkit called "USTC-TK2016", which is used to parse networ
     ```
 
 ---
+## Installation
+
+1. Clone this repository on your machine
+    ```bash
+    $ git clone https://github.com/yungshenglu/USTC-TK2016
+    ```
+2. Install the required packages via the following command
+    ```bash
+    # Run the command at the root of the repository
+    $ pip3 install -r requirements.txt
+    ```
+    * The requried packages are listed as follow:
+        * [`numpy 1.16.4`](https://pypi.org/project/numpy/)
+        * [`PIL 1.1.6`](https://pypi.org/project/PIL/)
+
+---
 ## Execution
 
 > **NOTICE:** You are on the `ubuntu` branch now!
