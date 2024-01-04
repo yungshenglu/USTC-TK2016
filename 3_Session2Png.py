@@ -19,7 +19,7 @@ def getMatrixfrom_pcap(filename,width):
         content = f.read()
     hexst = binascii.hexlify(content)  
     fh = numpy.array([int(hexst[i:i+2],16) for i in range(0, len(hexst), 2)])  
-    rn = len(fh)/width
+    rn = len(fh)//width
     fh = numpy.reshape(fh[:rn*width],(-1,width))  
     fh = numpy.uint8(fh)
     return fh
